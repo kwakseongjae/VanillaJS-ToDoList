@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Yeon+Sung&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  /*linear-gradient : 그라데이션주기*/
+  background: linear-gradient(to bottom, #e6e6fa 0%, #fff0f5);
+}
+
+.wrapper {
+  margin: 80px auto;
+  max-width: 700px;
+  width: 100%;
+  background: wheat;
+  padding: 25px;
+  border-radius: 6px;
+}
+.wrapper header {
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 15px;
+  text-align: center;
+  font-family: "Nanum Pen Script", cursive;
+}
+.wrapper .subtitle {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 15px;
+  text-align: center;
+  font-family: "Nanum Pen Script", cursive;
+}
+.wrapper .inputField {
+  display: flex;
+  margin: 5px auto 20px;
+  height: 45px;
+  width: 700px;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.wrapper .inputField .toDoForm button {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.inputField input {
+  color: black;
+  padding-left: 15px;
+  width: 600px;
+  height: 100%;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  /* outline: none; :: 클릭시 테두리 안보이게 지정 */
+  outline: none;
+}
+
+.inputField button {
+  width: 50px;
+  height: 100%;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.toDos::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+.toDos {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.done::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+.done {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.result p {
+  font-family: "Yeon Sung", cursive;
+  font-size: 25px;
+}
+
+.toDos li {
+  /* list-style: none; 으로 li에 기호나 숫자 표시를 제거
+     line-height: 텍스트간의 줄 간격을 조절
+     text-indent : 들여쓰기
+ */
+  width: 650px;
+  list-style: none;
+  line-height: 40px;
+  position: relative;
+  margin-bottom: 9px;
+  text-indent: 15px;
+  background: white;
+  border-radius: 3px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.toDos li button {
+  font-size: 20px;
+  color: red;
+  border: none;
+  float: right;
+  right: 17px;
+  margin-top: 10px;
+  background: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.done li {
+  /* list-style: none; 으로 li에 기호나 숫자 표시를 제거
+     line-height: 텍스트간의 줄 간격을 조절
+     text-indent : 들여쓰기
+ */
+  width: 650px;
+  list-style: none;
+  line-height: 40px;
+  position: relative;
+  margin-bottom: 9px;
+  text-indent: 15px;
+  background: white;
+  border-radius: 3px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.done li button {
+  font-size: 20px;
+  color: red;
+  border: none;
+  float: right;
+  right: 17px;
+  margin-top: 10px;
+  background: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.wrapper .footer {
+  font-weight: 600;
+  text-indent: 15px;
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: right;
+}
+.footer button {
+  color: wheat;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 6px 10px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 9px;
+  background: rgb(6, 6, 6);
+}
+.footer button:hover {
+  color: rgb(6, 6, 6);
+  background-color: white;
+}
