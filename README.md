@@ -1,5 +1,11 @@
 ## VanillaJS-ToDoList
+> **개발기간** : 2023.08.25 ~ 2022.08.31
 
-### Vercel 임시 배포 링크
-https://vanilla-js-to-do-list.vercel.app/
+## 배포 주소
+
+> **개발 버전** : https://vanilla-js-to-do-list.vercel.app/
+
+## 프로젝트 소개
+
+
 
